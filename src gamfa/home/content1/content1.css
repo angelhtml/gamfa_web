@@ -1,0 +1,57 @@
+:root{
+    --shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -8px 12px 0 rgba(255, 255, 255, 1);
+
+    --shadow-hover: inset 0px 8px 16px 0 rgba(0, 0, 0, 0.15),
+    inset 0px -8px 12px 0 rgba(255, 255, 255, 0.5);
+
+    --time:2s;
+}
+@font-face {
+    font-family: "pars";
+src: local("./IRANSansWebFaNum.ttf"),
+ url("../header/IRANSansWebFaNum.ttf") format("truetype");
+}
+
+.content1-stage1-flex1{
+    display: flex;
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+.content1-stage1-box1{
+    flex: 30%;
+}
+.content1-stage1-box2{
+    flex: 70%;
+    padding: 20px 20px;
+}
+@media screen and (max-width: 700px) {
+    .content1-stage1-flex1 {
+    flex-direction: column;
+    }
+    }
+.content1-stage1-box2-txt1{
+    text-align: right;
+    font-family: pars;
+    font-size: 1.3rem;
+    font-weight: 700;
+}    
+.content1-stage1-box2-txt2{
+    text-align: right;
+    font-family: pars;
+    font-size: 1rem;
+    font-weight: 400;
+}  
+.content1-stage1-box2-txt3{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-family: pars;
+    font-size: 1rem;
+    font-weight: 700;
+} 
+@media screen and (max-width: 400px) {
+    .content1-stage1-box2-txt3 {
+    margin-bottom: 0.1rem;
+    }
+    }

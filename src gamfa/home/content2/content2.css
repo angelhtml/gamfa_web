@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "pars";
+src: local("./IRANSansWebFaNum.ttf"),
+ url("../header/IRANSansWebFaNum.ttf") format("truetype");
+}
+.content2-box1{
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.content2-box2{
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.content2-box3{
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.content2-box4{
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.content2-box1:hover{
+    box-shadow:  0px 15px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -15px 12px 0 rgba(255, 255, 255, 1);
+    transform: scale(1.03);
+}
+.content2-box2:hover{
+    box-shadow:  0px 15px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -15px 12px 0 rgba(255, 255, 255, 1);
+    transform: scale(1.03);
+}
+.content2-box3:hover{
+    box-shadow:  0px 15px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -15px 12px 0 rgba(255, 255, 255, 1);
+    transform: scale(1.03);
+}
+.content2-box4:hover{
+    box-shadow:  0px 15px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -15px 12px 0 rgba(255, 255, 255, 1);
+    transform: scale(1.03);
+}
+.content2-box-img{
+    border-radius: 10px 10px 50px 50px;
+}
+.content2-box-txt1{
+    font-family: pars;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0px 1px 1px rgb(155, 155, 155);
+}
+.content2-box-txt2{
+    padding: 14px;
+    font-family: pars;
+    font-size: 0.75rem;
+    color: rgb(82, 82, 82);
+}
+@media screen and (max-width:650px){
+    .content2-box-txt2{
+        font-size: 1.1rem;
+    }
+}
+.content2-botton1{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: pars;
+    font-size: 0.86rem;
+    padding: 5px;
+    background-color: var(--bg-color);
+    box-shadow: var(--shadow);
+    transition: transform 0.5s ease;
+    text-shadow: 0px 1px 1px silver;
+}
+.content2-botton1:hover{
+    box-shadow: var(--shadow-hover);
+}
+@media screen and (max-width:450px){
+    .content2-botton1{
+        margin-top: 0.5rem;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+}

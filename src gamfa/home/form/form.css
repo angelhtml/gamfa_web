@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "pars";
+src: local("./IRANSansWebFaNum.ttf"),
+ url("../header/IRANSansWebFaNum.ttf") format("truetype");
+}
+.form-txt1{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: pars;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 11rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form-txt1-button{
+    position: relative;
+    top: 15rem;
+    padding: 10px;
+    background-color: #8800ff;
+    color: white;
+    border-radius: 5px;
+    animation-name: borderbutton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 2px solid rgba(0, 0, 0, 0);
+    animation-timing-function: linear;
+    font-family: pars;
+}
+@keyframes borderbutton{
+    50%{
+        border:2px solid #03e9f4;
+    }
+}
+.form-txt1-button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+@media screen and (max-width:900px){
+    .form-txt1-button{
+        position: relative;
+        top: 13rem;
+    }
+}
+@media screen and (max-width:900px){
+    .form-txt1-button{
+        position: relative;
+        top: 12rem;
+    }
+}
+@media screen and (max-width:550px){
+    .form-txt1-button{
+        position: relative;
+        top: 10rem;
+        padding: 5px;
+    }
+    .form-txt1{
+        font-size: 1.1rem;
+        top: 9rem;
+    }
+}
+/*====================*/
+:root{
+    --bg: #eff2f9;
+    --shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.15),
+    0px -8px 12px 0 rgba(255, 255, 255, 1);
+    --shadow-hover: inset 0px 8px 16px 0 rgba(0, 0, 0, 0.15),
+    inset 0px -8px 12px 0 rgba(255, 255, 255, 0.5);
+    --border: 20px;
+    --time: 0.2s;
+    --color: linear-gradient(to right, rgb(24, 206, 0), rgba(35, 255, 6, 0.637));
+}
+
+/*input2============================================*/
+.input2{
+    margin-top: 1rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1000' height='500' preserveAspectRatio='none' viewBox='0 0 1000 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1194%26quot%3b)' fill='none'%3e%3crect width='1000' height='500' x='0' y='0' fill='url(%23SvgjsLinearGradient1195)'%3e%3c/rect%3e%3cpath d='M0 0L70.36 0L0 59.53z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 59.53L70.36 0L111.17 0L0 187.23000000000002z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 187.23000000000002L111.17 0L181.39 0L0 262.62z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 262.62L181.39 0L582.95 0L0 298.86z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1000 500L803.17 500L1000 257.53z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1000 257.53L803.17 500L361.40999999999997 500L1000 249.04999999999998z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1000 249.05L361.40999999999997 500L352.2 500L1000 216.71z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1000 216.71000000000004L352.19999999999993 500L178.05999999999995 500L1000 115.50000000000004z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1194'%3e%3crect width='1000' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='87.5%25' y1='-25%25' x2='12.5%25' y2='125%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1195'%3e%3cstop stop-color='rgba(0%2c 255%2c 255%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(136%2c 0%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    box-shadow: var(--shadow);
+    width: 70%;
+    height: 23rem;
+    outline: none;
+    border-radius: var(--border);
+}
+@media screen and (max-width:450px){
+    .input2{
+        height: 80vh;
+        margin-top: 5rem;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='750' preserveAspectRatio='none' viewBox='0 0 500 750'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1240%26quot%3b)' fill='none'%3e%3crect width='500' height='750' x='0' y='0' fill='url(%23SvgjsLinearGradient1241)'%3e%3c/rect%3e%3cpath d='M0 0L48.19 0L0 124.73z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 124.73L48.19 0L148.20999999999998 0L0 367.08z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 367.08L148.20999999999998 0L334.34 0L0 409.46z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 409.46L334.34 0L381.94 0L0 456.39z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M500 750L411.27 750L500 663.11z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M500 663.11L411.27 750L405.02 750L500 540.8100000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M500 540.81L405.02 750L257.78999999999996 750L500 452.10999999999996z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M500 452.11L257.79 750L114.65000000000003 750L500 171.99z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1240'%3e%3crect width='500' height='750' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='112.5%25' y1='8.33%25' x2='-12.5%25' y2='91.67%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1241'%3e%3cstop stop-color='rgba(0%2c 255%2c 255%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(136%2c 0%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    }
+    .input2-name-aria{
+        width: 95% !important;
+    }
+}
+.input2-name{
+    width: 50%;
+    outline: none;
+    background-color:rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 1.3rem;
+    color: var(--bg-color);
+    height: 8vh;
+    margin-top: 5vh;
+}
+.input2-name::placeholder{
+    color: var(--bg-color);
+}
+.input2-name-aria{
+    width: 50%;
+    outline: none;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid var(--bg-color);
+    font-size: 1.3rem;
+    color: var(--bg-color);
+    height: 8vh;
+    margin-top: 5vh;
+}
+.input2-name-aria::placeholder{
+    color: var(--bg-color);
+}
+/*line*/
+.line-input2{
+    width: 50%;
+    height: 4px;
+    border-radius: 20px;
+    bottom: -8px;
+    background: var(--bg-color);
+} 
+.line-input2:after{
+    content: "";
+  
+    float: left;
+    width: 100%;
+    height: 4px;
+    transform: scalex(0);
+    transition: 0.3s ease;
+    background: var(--color);
+    box-shadow: 0 -25px 30px 10px rgba(255, 255, 255, 0);
+}
+input:focus + .line-input2:after {
+    transform: scaleX(1);
+}
+/*button input2*/
+.input2-button{
+    margin-top: 2rem;
+    width: 6rem;
+    height: 3rem;
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(0px);  /*blur effect*/
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 5px;
+    border: 1.5px solid rgb(255, 255, 255, 0.18);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+}
+.input2-button:hover{
+    box-shadow: var(--shadow-hover);
+    transform: scale(0.9);
+}
+.input2-box{
+    margin-top: 4rem;
+    width: 6rem;
+    height: 3rem;
+    background-color: var(--bg);
+    box-shadow: var(--shadow);
+    border-radius: var(--border);
+}
+@media screen and (max-width:500px){
+    .input2,
+    .input2-name,
+    .line-input2{
+        width: 90%;
+    }
+}

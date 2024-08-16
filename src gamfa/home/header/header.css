@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "pars";
+src: local("./IRANSansWebFaNum.ttf"),
+ url("./IRANSansWebFaNum.ttf") format("truetype");
+}
+.header-title1{
+    font-size: 1.4rem;
+    font-family: pars;
+    position: absolute;
+    top: 20vh;
+    left: 72vw;
+    color: white;
+    font-weight: 600;
+    animation-name: gamfa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  linear;
+    transition: all 1s;
+}
+@keyframes gamfa{
+    0%{
+        text-shadow: 0px 2px 2px #0ff;
+    }
+    50%{
+        text-shadow: 0px 2px 2px #f0f;
+    }
+    100%{
+        text-shadow: 0px 2px 2px rgb(0, 255, 34);
+    }
+}
+.header-title2{
+    font-size: 1.2rem;
+    font-family: pars;
+    position: absolute;
+    top: 35vh;
+    left: 60vw;
+    color: white;
+    transition: all 1s;
+}
+.header-title3{
+    font-size: 1rem;
+    font-family: pars;
+    position: absolute;
+    top: 50vh;
+    left: 55vw;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+.header-img{
+    position: absolute;
+    left: 10vw;
+    top: 15vh;
+    width: 30%;
+    height: auto;
+    transition: all 1s;
+}
+@media screen and (max-width: 950px){
+    .header-img{
+        width: 40%;
+        left: 8vh;
+    }
+}
+@media screen and (max-width: 800px){
+    .header-img{
+        width: 45%;
+        left: 1rem;
+        top: 15vh;
+    }
+    .header-title1{
+        left: 26rem;
+        top: 7rem;
+    }
+    .header-title2{
+        left: 22rem;
+        top: 12rem;
+    }
+    .header-title3{
+        left: 18rem;
+        top: 17rem;
+    }
+}
+@media screen and (max-width: 700px){
+    .header-title1{
+        left: 10rem;
+        top: 5rem;
+    }
+    .header-title2{
+        left: 6rem;
+        top: 8rem;
+    }
+    .header-title3{
+        left: 4rem;
+        top: 11rem;
+    }
+    .header-img{
+        width: 11rem;
+        left: 6rem;
+        top: 14rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .header-title1{
+        left: 35vw;
+        top: 5rem;
+    }
+    .header-title2{
+        left: 4rem;
+        top: 7.9rem;
+    }
+    .header-title3{
+        left: 1.8rem;
+        top: 12rem;
+    }
+    .header-img{
+        top: 15rem;
+        left: 3rem;
+        width: 65%;
+    }
+}

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "pars";
+src: local("./IRANSansWebFaNum.ttf"),
+ url("../header/IRANSansWebFaNum.ttf") format("truetype");
+}
+.footer-txt1{
+    font-family: pars;
+    text-align: right;
+    color: var(--txt-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-shadow: var(--txt-shadow);
+    transition: all 1s;
+}
+.footer-txt2{
+    font-family: pars;
+    text-align: right;
+    color: var(--txt-color);
+    text-shadow: var(--txt-shadow);
+    transition: all 1s;
+}
+.footer-txt3{
+    font-family: pars;
+    text-align: right;
+    color: var(--txt-color);
+    text-shadow: var(--txt-shadow);
+    transition: all 1s;
+}
+.footer-button1{
+    font-family: pars;
+    margin-top: 2rem;
+    color: var(--txt-color);
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(0px);  /*blur effect*/
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 5px;
+    border: 1.5px solid rgb(255, 255, 255, 0.18);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+}
+.footer-button1:hover{
+    transform: scale(1.1);
+}
+.footer-logo{
+    width: 3rem;
+    float: right;
+    margin-top: 1rem;
+    color: var(--txt-color);
+    transition: all 1s;
+}
+.footer-txt4{
+    font-family: pars;
+    text-align: right;
+    margin-top: 1.5rem;
+    color: var(--txt-color);
+    text-shadow: var(--txt-shadow);
+}
+.footer-img1{
+    position: absolute;
+    width: 30%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    transition: all 1s;
+}
+@media screen and (max-width: 950px){
+    .footer-img1{
+        width: 15rem;
+        margin-top: 9rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer-wave{
+        height: 750px !important;
+    }
+    .footer-img1{
+        width: 15rem;
+        margin-top: 25rem;
+        margin-left: 12rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer-img1{
+        width: 15rem;
+        margin-top: 25rem;
+        margin-left: 9rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .footer-img1{
+        width: 15rem;
+        margin-top: 27rem;
+        margin-left: 3rem;
+    }
+}
